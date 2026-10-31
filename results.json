@@ -1,0 +1,205 @@
+{
+  "exp1_crystallize": {
+    "fidelity_mean": 0.9972717610033491,
+    "fidelity_std": 0.00034731042109787915,
+    "whiteness_mean": 0.9942597949031953,
+    "whiteness_std": 0.0038227954112165226,
+    "fidelity_bar": 0.8,
+    "whiteness_bar": 0.8,
+    "pass_fidelity": true,
+    "pass_whiteness": true
+  },
+  "exp2_noise": {
+    "0.05": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    },
+    "0.1": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    },
+    "0.2": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    },
+    "0.3": {
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0
+    }
+  },
+  "exp3_occlusion": {
+    "block_3x4": {
+      "accuracy": 1.0,
+      "overlap": 1.0,
+      "masked_cells": 12
+    },
+    "whole_row_6": {
+      "accuracy": 1.0,
+      "overlap": 1.0,
+      "masked_cells": 12
+    },
+    "seam_region": {
+      "accuracy": 1.0,
+      "overlap": 1.0,
+      "masked_cells": 8
+    }
+  },
+  "exp4_corruption": {
+    "seam_shift": {
+      "flipped_cells": 20,
+      "corruption_accuracy": 1.0,
+      "random_same_count_mean": 1.0,
+      "random_same_count_std": 0.0,
+      "corruption_hurts_more_by": 0.0,
+      "lattice_specific": false
+    },
+    "row_slip_3": {
+      "flipped_cells": 6,
+      "corruption_accuracy": 1.0,
+      "random_same_count_mean": 1.0,
+      "random_same_count_std": 0.0,
+      "corruption_hurts_more_by": 0.0,
+      "lattice_specific": false
+    },
+    "catastrophe_front": {
+      "flipped_cells": 24,
+      "corruption_accuracy": 1.0,
+      "random_same_count_mean": 1.0,
+      "random_same_count_std": 0.0,
+      "corruption_hurts_more_by": 0.0,
+      "lattice_specific": false
+    }
+  },
+  "exp5_gate": {
+    "validation": {
+      "tau": 0.3717948717948718,
+      "J": 1.0,
+      "TPR": 1.0,
+      "FPR": 0.0
+    },
+    "held_out": {
+      "tau": 0.3717948717948718,
+      "TPR": 1.0,
+      "FPR": 0.0,
+      "J": 1.0,
+      "n_true": 100,
+      "n_control": 100
+    },
+    "pass_J": true
+  },
+  "exp6_calibration": {
+    "brier_mean": 0.09479393900493431,
+    "brier_std": 0.0038413784754007083,
+    "net_mean": -0.29479393900493434,
+    "net_std": 0.0038413784754007087,
+    "no_sample_brier_mean": 0.25,
+    "label_shuffle_brier": 0.28670792790729066,
+    "calibration_bins": [
+      [
+        null,
+        null,
+        0
+      ],
+      [
+        0.30763136808725733,
+        0.0,
+        20
+      ],
+      [
+        null,
+        null,
+        0
+      ],
+      [
+        0.6919851637845987,
+        1.0,
+        20
+      ],
+      [
+        null,
+        null,
+        0
+      ]
+    ],
+    "beats_no_sample_net": false
+  },
+  "exp7_kuramoto": {
+    "0.0": {
+      "r_mean": 0.19807362950276247,
+      "r_std": 0.08360295811244763
+    },
+    "0.2": {
+      "r_mean": 0.207157758725181,
+      "r_std": 0.0945832806946731
+    },
+    "1.0": {
+      "r_mean": 0.2833376469258833,
+      "r_std": 0.15407261298272976
+    },
+    "3.0": {
+      "r_mean": 0.3869417501255625,
+      "r_std": 0.13697289381752983
+    }
+  },
+  "exp8_controls": {
+    "fixed_scrambled": {
+      "fidelity_mean": 0.9941620678197548,
+      "fidelity_std": 0.0006653332005346853
+    },
+    "fixed_shuffled": {
+      "fidelity_mean": 0.9941620678199101,
+      "fidelity_std": 0.0006653332006335502
+    },
+    "per_sample_reshuffled": {
+      "fidelity_mean": 0.011352896199447812,
+      "fidelity_std": 0.011521416250136002
+    },
+    "no_learning_recall": {
+      "accuracy_mean": 0.9028846153846153,
+      "accuracy_std": 0.030153767115717104
+    }
+  },
+  "exp9_game": {
+    "top_4_rows": {
+      "accepted": true,
+      "score": 1.0,
+      "accuracy": 1.0,
+      "tau": 0.36111111111111116,
+      "sonification_pitches_hz": [
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0
+      ]
+    },
+    "corner_6x6": {
+      "accepted": true,
+      "score": 1.0,
+      "accuracy": 1.0,
+      "tau": 0.36111111111111116,
+      "sonification_pitches_hz": [
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0,
+        524.0
+      ]
+    },
+    "note": "Sonification pitches are display only, never scored."
+  }
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: Microtubule Crystallize
+version: 0.1.0
+date-released: 2026-10-27
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    orcid: https://orcid.org/0009-0000-9778-5374
+    affiliation: Spark AI NLP, Fredericton, New Brunswick, Canada
+  - family-names: Lee
+    given-names: Mun Seok
+license: AGPL-3.0-only
+repository-code: https://github.com/sparkainlp-x
+abstract: >-
+  A falsifiable classical toy implementing the deep-research
+  protocol for "crystallizing microtubules": a 13x12 lattice
+  pattern with a seam, Hebbian subspace crystallization,
+  outer-product recall, a Youden's-J refusing gate, a
+  commit-sample-revise calibration game, a Kuramoto phase
+  layer, and the controls that separate generic memory
+  success from lattice-specific success. Stdlib-only.
+keywords:
+  - holographic-memory
+  - hebbian-learning
+  - crystallization
+  - microtubule-lattice
+  - calibration
+  - falsification
